@@ -3,38 +3,45 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int score = new Scanner(System.in).nextInt();
-        System.out.print("Please enter your score");
-        //int score = Scanner .nextLine();
-
-        if ((score > 100 ) || (score < 0)) {
-
-            do {
-                System.out.print("Try again! Please enter your score");
-                score = new Scanner(System.in).nextInt();
-            }
-            while ((score > 100) ||(score < 0));
-            /* for (score > 100) ; {
-                System.out.println(" Please enter your score:");
-                int score = scanner.nextLine();
-                System.out.print("Please enter your score");
-            } */
-        } else if (score >= 70) {
-                System.out.println("Congrats! You’ve passed the test!");
-            } else System.out.println("Sorry, you’ve failed the test.");
-
-        }
-    }
-
+//        System.out.println("Please enter your score:");
+//        int score = new Scanner(System.in).nextInt();
+//
+//        if ((score > 100 ) || (score < 0)) {
+//
+//            do {
+//                System.out.println("Uncorrect input(");
+//                System.out.println("Please enter your score:");
+//
+//                score = new Scanner(System.in).nextInt();
+//            }
+//            while ((score > 100) ||(score < 0));
+//            /* for (score > 100) ; {
+//                System.out.println(" Please enter your score:");
+//                int score = scanner.nextLine();
+//                System.out.print("Please enter your score");
+//            } */
+//        }  if  (score >= 70) {
+//                System.out.println("Congrats! You’ve passed the test!");
+//            } else System.out.println("Sorry, you’ve failed the test.");
+//
+//        }
+//    }
+//        score = scanner.nextLine();
 // задание 2.
 
-//        String str = new String();
-//        Scanner scanner = new Scanner(System.in);
-//        while (str.length() == 0) {
-//            System.out.print("Please enter something:");
-//            str = scanner.nextLine();
-//        }
+        String str = new String("Exit");
+        Scanner scanner = new Scanner(System.in);
+        do {
+            System.out.println("Please enter something:");
+            str = scanner.nextLine();
+        }
+        while (false);
 
+
+
+
+    }
+}
 //        Задание 3.
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Please enter a number: ");
